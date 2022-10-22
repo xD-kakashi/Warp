@@ -9,7 +9,7 @@ body {
 
 :root {
     --bg-color: #252525;
-    --typewriterSpeed: 6s;
+    --typewriterSpeed: 4s;
     --typewriterCharacters: 24;
 }
 
