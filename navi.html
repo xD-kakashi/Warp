@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/navi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <a href="#" class="brand" >Brand</a>
+        <div class="menu">
+        <div class="btn">
+            <i class="fas fa-times close-btn" style="display: none"></i>
+        </div>    
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        </div>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn" style="display: none"></i>
+        </div>
+    </nav>
+
+    <p style="font-size:20px;color:white;padding-top:1000px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa alias nesciunt perferendis in explicabo aperiam? Qui magnam nulla aspernatur incidunt inventore beatae unde. Sunt, voluptates exercitationem? Cumque quisquam iure reiciendis.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla autem quia odio maiores, numquam, cumque soluta minus suscipit iusto repellendus debitis quo inventore quam exercitationem deleniti delectus laboriosam omnis esse?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non assumenda dignissimos laudantium quo omnis unde nam, illum error rem necessitatibus consequatur maiores obcaecati ipsam sit sapiente quos quod voluptatibus perferendis.
+    </p>
+
+
+
+    <script type="text/javascript">
+        //nav scrol
+        window.addEventListener("scroll",function(){
+            var header=document.querySelector("header");
+            header.classList.toggle('sticky',window.scrollY>0)
+        })
+    </script>
+</body>
+</html>
