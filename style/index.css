@@ -140,6 +140,9 @@ nav {
   font-size: 14px;
 }
 
+.nav-links a:hover {
+  transform: scale(1.1,1.1);
+}
 .burger {
   display: none;
 }
